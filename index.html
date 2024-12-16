@@ -162,7 +162,7 @@
 </div>
 </div>
 <script>
-    let datetxt = "";
+    let datetxt = "06/12/2008";
     let datatxtletter = "chúc c vanh tuổi mới vui vẻ, mạnh khoẻ ngày càng học giỏi và gặp nhiều may mắn🎂🎂";
     let titleLetter = "Gửi chị vanh 😄😄 ";
     let charArrDate = datetxt.split('');
@@ -272,10 +272,10 @@
     const fcMobile = mobile()
     if(window.innerWidth < 768){
         setTimeout(()=>{
-            fcMobile.timeout("20", document.querySelector(".day"))
+            fcMobile.timeout("", document.querySelector(".day"))
         },5000)
         setTimeout(()=>{
-            fcMobile.timeout("11", document.querySelector(".month"))
+            fcMobile.timeout("", document.querySelector(".month"))
         },6000)
     }
     
